@@ -154,6 +154,9 @@ public class TestWebsiteCheck {
         driver.switchTo().newWindow(WindowType.TAB);
 
         driver.get("https://cnakpop.com/");
+        driver.switchTo().newWindow(WindowType.TAB);
+
+        driver.get("https://radar.ph/");
     }
 
 
